@@ -9,8 +9,8 @@
         + tag "--privileged=true" allows to the container access all of hardware devices under the host.
         + tag "mic_cont_image:1.2" is image already created from Dockerfile
 3. Log into the container and install the driver:
-    $ cd /opt/share
-    // for example, the driver is contained in /opt/share/mpss, go to there folder and install
-    $ yum install *.rpm
-    // go to the folder containing xeonphi-module packages and install, please remember the right version of host kernel
+    - $ cd /opt/share
+    - // for example, the driver is contained in /opt/share/mpss, go to there folder and install
+    - $ yum install *.rpm
+    - // go to the folder containing xeonphi-module packages and install, please remember the right version of host kernel
  
